@@ -1,0 +1,83 @@
+.download {
+  padding: 100px 20px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.download-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.download-title {
+  font-size: 48px;
+  margin-bottom: 60px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.download-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.download-btn {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 30px;
+  background-color: #c0c0c0;
+  color: black;
+  border: 3px solid white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-family: 'Racing Sans One', cursive;
+}
+
+.download-btn:hover {
+  background-color: #d3d3d3;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.download-btn:active {
+  transform: translateY(-1px);
+}
+
+.btn-icon {
+  height: 30px;
+  width: 30px;
+  object-fit: contain;
+}
+
+.btn-text {
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .download {
+    padding: 50px 20px;
+  }
+
+  .download-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+
+  .download-buttons {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .download-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}

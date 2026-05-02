@@ -1,0 +1,11 @@
+<section class="download" id="download">
+  <div class="download-container">
+    <h2 class="download-title">Download Glumion</h2>
+    <div class="download-buttons">
+      <a *ngFor="let download of downloads" [href]="download.url" class="download-btn">
+        <img [src]="download.icon" [alt]="download.platform" class="btn-icon">
+        <span class="btn-text">{{ download.platform }}</span>
+      </a>
+    </div>
+  </div>
+</section>

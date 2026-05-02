@@ -1,0 +1,14 @@
+<section class="about" id="about">
+  <div class="about-container">
+    <h2 class="about-title">About Glumion</h2>
+    <div class="about-content">
+      <app-about-section
+        *ngFor="let section of sections"
+        [title]="section.title"
+        [description]="section.description"
+        [imageUrl]="section.imageUrl"
+        [imagePosition]="section.imagePosition">
+      </app-about-section>
+    </div>
+  </div>
+</section>
