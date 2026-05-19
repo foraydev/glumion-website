@@ -10,7 +10,7 @@ export class DownloadComponent {
     {
       platform: 'Windows',
       icon: 'assets/download-windows.png',
-      url: '[INSERT_WINDOWS_DOWNLOAD_LINK]'
+      url: 'https://github.com/foraydev/gravitas-releases/releases/download/v0.4.0/Glumion.Windows.zip'
     },
     {
       platform: 'Mac',
@@ -20,7 +20,7 @@ export class DownloadComponent {
     {
       platform: 'Steam Deck',
       icon: 'assets/download-steam-deck.svg',
-      url: '[INSERT_STEAM_DECK_DOWNLOAD_LINK]'
+      url: 'https://github.com/foraydev/gravitas-releases/releases/download/v0.4.0/Glumion.Steam.Deck.zip'
     }
   ];
 }
